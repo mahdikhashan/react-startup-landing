@@ -1,0 +1,27 @@
+.button {
+  @apply text-center text-lg font-bold py-4 rounded-[59px];
+}
+
+.button-large {
+  @apply px-32;
+}
+
+.button-normal {
+  @apply px-12;
+}
+
+.button-blue {
+  @apply bg-blue;
+}
+
+.button-blue:hover {
+  @apply bg-blue;
+}
+
+.button-gray {
+  @apply bg-gray;
+}
+
+.button-gray:hover {
+  @apply bg-gray;
+}
