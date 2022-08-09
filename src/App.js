@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/common/button';
 
 function App() {
+
+  const prompt = () => alert("prompt it!")
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +13,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button variant="normal" color="blue" onClick={prompt}>
+          Subscribe
+        </Button>
         <a
           className="App-link"
           href="https://reactjs.org"
