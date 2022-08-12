@@ -4,7 +4,7 @@ progress {
 
 progress::-webkit-progress-bar {
   /* style rules */
-  @apply rounded-[10px] bg-white;
+  @apply rounded-[10px] bg-[#F3F5F8];
 }
 
 progress::-webkit-progress-value {

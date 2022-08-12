@@ -1,0 +1,44 @@
+.base {
+  @apply relative;
+  @apply z-0;
+  @apply my-28;
+}
+
+.buttonList {
+  @apply flex flex-row gap-4;
+  @apply max-w-md;
+  @apply mx-auto;
+  @apply mt-16;
+}
+
+.text {
+  @apply flex flex-col;
+  @apply max-w-2xl;
+  @apply items-center justify-center;
+  @apply mx-auto;
+}
+
+.text > h2 {
+  @apply text-[56px];
+  line-height: 60px;
+  font-weight: 700;
+  @apply text-center;
+}
+
+.text > p {
+  @apply py-4;
+  @apply text-xl;
+  @apply text-center;
+  line-height: 30px;
+}
+
+.text > button {
+  @apply pt-2;
+  @apply text-[18px];
+  line-height: 20px;
+  @apply text-blue;
+}
+
+.progressBar {
+  @apply mt-14;
+}
