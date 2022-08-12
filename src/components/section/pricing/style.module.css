@@ -1,0 +1,64 @@
+.base {
+  @apply flex flex-row gap-32;
+  @apply items-start justify-center;
+  @apply py-24;
+  @apply bg-[#182333];
+}
+
+.content {
+  @apply flex flex-col gap-4;
+  @apply text-white;
+  @apply max-w-xl;
+}
+
+.content > h2 {
+  @apply text-[56px] text-left;
+  line-height: 65px;
+  font-weight: 700;
+}
+
+.content > p {
+  @apply text-[19px] text-left;
+  line-height: 30px;
+  font-weight: 450;
+}
+
+.trial {
+  @apply flex flex-col;
+  @apply text-white;
+  @apply items-start;
+}
+
+.trial > :first-child {
+  @apply pb-[10px];
+  @apply pl-[10px];
+}
+
+.trial > :nth-child(3) {
+  @apply text-[19px];
+  line-height: 30px;
+  font-weight: 450;
+  @apply pb-[20px];
+}
+
+.trailFee {
+  @apply flex flex-row gap-2;
+  @apply items-center justify-center;
+  @apply text-left;
+  @apply pb-[30px];
+}
+
+.trailFee > :first-child {
+  @apply text-[#F3CD03];
+  @apply text-[72px];
+  line-height: 78px;
+  font-weight: 900;
+}
+
+.trailFee > :nth-child(2) {
+  @apply text-white;
+  @apply flex flex-col;
+  @apply text-[24px];
+  line-height: 38px;
+  font-weight: 450;
+}

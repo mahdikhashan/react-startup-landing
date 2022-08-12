@@ -5,6 +5,7 @@ import LightContent5 from './components/section/light-content-5';
 import LightContent6 from './components/section/light-content-6';
 import LightContent7 from './components/section/light-content-7';
 import Testimonial from './components/section/testimonial';
+import Pricing from './components/section/pricing';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <LightContent6 />
         <LightContent7 />
         <Testimonial />
+        <Pricing />
       </div>
     </div>
   );
