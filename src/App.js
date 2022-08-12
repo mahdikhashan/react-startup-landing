@@ -5,8 +5,6 @@ import LightContent5 from './components/section/light-content-5';
 import './App.css';
 
 function App() {
-  const prompt = () => alert("prompt it!")
-
   return (
     <div className="App">
       <div className="pt-8">

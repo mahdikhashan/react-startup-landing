@@ -16,7 +16,7 @@ function LightContent5() {
               want a simple way to plan their
               schedule.
             </p>
-            <a href="#">LEARN MORE</a>
+            <button href="#">LEARN MORE</button>
           </div>
           <div className={style.shape}>
             <img src={CurvedObject} alt="shape" />

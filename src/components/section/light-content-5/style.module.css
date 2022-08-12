@@ -32,7 +32,7 @@
   line-height: 38px;
 }
 
-.text > a {
+.text > button {
   @apply pt-2;
   @apply text-[18px];
   line-height: 20px;

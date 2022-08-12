@@ -10,10 +10,10 @@ function Header() {
         <Logo />
         <div>
           <ul>
-            <li><a href='#' target="blank" refer="noopener">Home</a></li>
-            <li><a href='#' target="blank" refer="noopener">Product</a></li>
-            <li><a href='#' target="blank" refer="noopener">About</a></li>
-            <li><a href='#' target="blank" refer="noopener">Contact</a></li>
+            <li><button>Home</button></li>
+            <li><button>Product</button></li>
+            <li><button>About</button></li>
+            <li><button>Contact</button></li>
           </ul>
         </div>
         <Button variant='border'>Login</Button>
