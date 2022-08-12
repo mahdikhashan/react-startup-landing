@@ -53,7 +53,7 @@
 
 .shape > img:first-child {
   @apply absolute;
-  @apply left-0 top-96;
+  @apply left-48 top-96;
   @apply -z-10;
 }
 
