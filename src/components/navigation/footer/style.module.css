@@ -1,0 +1,23 @@
+.footer {
+  @apply flex flex-row items-center justify-between px-20 py-16;
+}
+
+ul > li {
+  @apply inline-block px-8 text-lg;
+  line-height: 20px;
+  font-weight: 450;
+}
+
+.logo {
+  @apply flex flex-col;
+  @apply items-start justify-start;
+}
+
+.logo > p {
+  @apply pl-[10px];
+  @apply -mt-[15px];
+}
+
+.icons {
+  @apply flex flex-row gap-[30px];
+}

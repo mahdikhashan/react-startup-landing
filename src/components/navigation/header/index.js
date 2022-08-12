@@ -1,12 +1,12 @@
 import React from 'react'
 import Logo from '../../logo'
 import Button from '../../common/button'
-import './style.css'
+import style from './style.module.css'
 
 function Header() {
   return (
     <>
-      <div className='header'>
+      <div className={style.header}>
         <Logo />
         <div>
           <ul>
