@@ -7,7 +7,7 @@ function LightContent7() {
   return (
     <>
       <div className={style.base}>
-        <div className="container flex flex-col max-w-2xl">
+        <div className="container flex flex-col max-w-4xl">
           <div className={style.text}>
             <h2>A rethink of how we work</h2>
             <p>
