@@ -1,0 +1,50 @@
+.base {
+  @apply relative;
+  @apply z-0;
+  @apply my-28;
+}
+
+.buttonList {
+  @apply flex flex-row gap-4;
+  @apply max-w-md;
+  @apply mx-auto;
+  @apply mt-16;
+}
+
+.text {
+  @apply flex flex-col;
+  @apply max-w-2xl;
+  @apply items-start justify-center;
+  @apply mx-auto;
+}
+
+.text > h3 {
+  @apply text-4xl;
+  line-height: 42px;
+  font-weight: 450;
+  @apply text-left;
+}
+
+.text > p {
+  @apply py-4;
+  @apply text-2xl;
+  @apply text-left;
+  line-height: 38px;
+}
+
+.text > button {
+  @apply pt-2;
+  @apply text-[18px];
+  line-height: 20px;
+  @apply text-blue;
+}
+
+.shape {
+  @apply block;
+}
+
+.shape > img:first-child {
+  @apply absolute;
+  @apply left-0;
+  @apply -z-10;
+}
