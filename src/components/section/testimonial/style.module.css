@@ -46,3 +46,19 @@
 .avatar > span:last-child {
   @apply text-left;
 }
+
+.shape {
+  @apply block;
+}
+
+.shape > img:first-child {
+  @apply absolute;
+  @apply left-0 top-96;
+  @apply -z-10;
+}
+
+.shape > img:last-child {
+  @apply absolute;
+  @apply right-0;
+  @apply -z-10;
+}

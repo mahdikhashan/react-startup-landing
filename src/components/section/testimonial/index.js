@@ -3,6 +3,8 @@ import style from './style.module.css'
 import IBM from '../../../static/ibm.png';
 import Button from '../../common/button';
 import Avatar from '../../common/avatar';
+import SmallShape from '../../../static/small_shape_blue_testimonial.png'
+import BlueShape from '../../../static/shape_blue_testimonial.png'
 
 function Testimonial () {
   return (
@@ -27,6 +29,10 @@ function Testimonial () {
           </div>
           <div className={style.buttonList}>
             <Button>All Testimonials</Button>
+          </div>
+          <div className={style.shape}>
+            <img src={SmallShape} alt="shape" />
+            <img src={BlueShape} alt="shape" />
           </div>
         </div>
       </div>
