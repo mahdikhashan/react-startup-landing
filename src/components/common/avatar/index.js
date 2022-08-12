@@ -5,16 +5,6 @@ import classNames from '../../../utils/classNames'
 import avatar from './avatar.png'
 
 function Avatar ({ src, alt }) {
-  Avatar.defaultProps = {
-    src: avatar,
-    alt: 'default avatar alt',
-  }
-
-  Avatar.propTypes = {
-    src: PropTypes.object,
-    alt: PropTypes.string,
-  }
-
   const imgClasses = {
     'image': true,
   }
@@ -26,6 +16,16 @@ function Avatar ({ src, alt }) {
       </div>
     </>
   )
+}
+
+Avatar.defaultProps = {
+  src: avatar,
+  alt: 'default avatar alt',
+}
+
+Avatar.propTypes = {
+  src: PropTypes.object,
+  alt: PropTypes.string,
 }
 
 export default Avatar;

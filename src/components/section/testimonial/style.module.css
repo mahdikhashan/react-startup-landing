@@ -1,0 +1,48 @@
+.base {
+  @apply relative;
+  @apply mb-[108px];
+}
+
+.wrapper {
+  @apply container flex flex-col max-w-4xl items-center justify-center;
+}
+
+.text {
+  @apply flex flex-col;
+  @apply items-center justify-center;
+  @apply max-w-2xl;
+}
+
+.text > h3 {
+  @apply py-[50px];
+  @apply text-4xl;
+  line-height: 42px;
+}
+
+.text > img {
+  @apply pb-[50px];
+}
+
+.text > p {
+  @apply text-xl pb-[50px];
+  line-height: 30px;
+  font-weight: 450;
+}
+
+.avatar {
+  @apply pb-[50px];
+  @apply flex flex-row gap-4;
+  @apply items-center justify-center;
+}
+
+.avatar > span {
+  @apply flex flex-col;
+}
+
+.avatar > span:first-child {
+  @apply text-left;
+}
+
+.avatar > span:last-child {
+  @apply text-left;
+}

@@ -4,6 +4,7 @@ import LightCTA from './components/section/light-cta';
 import LightContent5 from './components/section/light-content-5';
 import LightContent6 from './components/section/light-content-6';
 import LightContent7 from './components/section/light-content-7';
+import Testimonial from './components/section/testimonial';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <LightContent5 />
         <LightContent6 />
         <LightContent7 />
+        <Testimonial />
       </div>
     </div>
   );
