@@ -1,0 +1,61 @@
+.base {
+  @apply flex flex-col mx-auto;
+  @apply relative;
+  @apply z-0;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(107,230,255,0.5) 30%, rgba(0,212,255,0.7007396708683473) 50%, rgba(107,230,255,0.49625787815126055) 70%, rgba(255,255,255,1) 100%);
+}
+
+.text {
+  @apply flex flex-col;
+  @apply max-w-lg;
+  @apply items-center justify-center;
+  @apply mx-auto;
+}
+
+.text > h1 {
+  @apply pt-12;
+  @apply mt-24;
+}
+
+.text > span {
+  @apply pt-4 pb-12;
+  @apply text-2xl;
+  line-height: 38px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.buttonList {
+  @apply flex flex-row gap-4;
+  @apply max-w-md;
+  @apply mx-auto;
+}
+
+.image {
+  @apply flex;
+  @apply pt-4;
+  @apply items-center;
+  @apply justify-center;
+  @apply mx-auto;
+  @apply z-10;
+}
+
+.shape {
+  @apply block;
+}
+
+.shape > img:first-child {
+  @apply absolute;
+  @apply left-0 top-96;
+  @apply -z-10;
+}
+
+.shape > img:last-child {
+  @apply absolute;
+  @apply right-0;
+  @apply -z-10;
+}

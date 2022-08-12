@@ -1,0 +1,4 @@
+.card {
+  @apply flex p-10 rounded-xl border-gray-dark;
+  @apply bg-white;
+}

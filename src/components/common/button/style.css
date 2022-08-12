@@ -10,12 +10,24 @@
   @apply px-12;
 }
 
+.button-border {
+  @apply bg-white border-blue text-blue border-[2px] px-12 !important;
+}
+
 .button-blue {
-  @apply bg-blue;
+  @apply bg-blue text-white;
 }
 
 .button-blue:hover {
   @apply bg-blue;
+}
+
+.button-white {
+  @apply bg-white text-black;
+}
+
+.button-white:hover {
+  @apply bg-white;
 }
 
 .button-gray {

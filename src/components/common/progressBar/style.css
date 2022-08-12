@@ -1,0 +1,13 @@
+progress {
+  @apply h-4 w-full;
+}
+
+progress::-webkit-progress-bar {
+  /* style rules */
+  @apply rounded-[10px] bg-white;
+}
+
+progress::-webkit-progress-value {
+  /* style rules */
+  @apply rounded-[10px] bg-blue;
+}

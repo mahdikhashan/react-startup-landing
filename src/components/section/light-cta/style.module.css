@@ -1,0 +1,38 @@
+.base {
+  @apply flex flex-col mx-auto;
+  @apply relative;
+  @apply z-0;
+  @apply my-16;
+}
+
+.buttonList {
+  @apply flex flex-row gap-4;
+  @apply max-w-md;
+  @apply mx-auto;
+  @apply mt-16;
+}
+
+.text {
+  @apply flex flex-col;
+  @apply max-w-2xl;
+  @apply items-center justify-center;
+  @apply mx-auto;
+}
+
+.text > span {
+  @apply text-4xl;
+  line-height: 48px;
+  font-weight: 450;
+  @apply text-[#F3CD03]
+}
+
+.text > h2 {
+  @apply text-[56px];
+  font-weight: 700;
+}
+
+.text > p {
+  @apply pt-4;
+  @apply text-2xl;
+  line-height: 38px;
+}

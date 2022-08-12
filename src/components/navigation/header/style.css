@@ -1,0 +1,9 @@
+.header {
+  @apply flex items-center justify-between px-10 py-8;
+}
+
+ul > li {
+  @apply inline-block px-8 text-lg;
+  line-height: 20px;
+  font-weight: 450;
+}

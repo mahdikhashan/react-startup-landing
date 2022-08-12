@@ -1,30 +1,19 @@
-import logo from './logo.svg';
+import React from 'react'
+import Heading from './components/section/heading';
+import LightCTA from './components/section/light-cta';
+import LightContent5 from './components/section/light-content-5';
 import './App.css';
-import Button from './components/common/button';
 
 function App() {
-
   const prompt = () => alert("prompt it!")
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button variant="normal" color="blue" onClick={prompt}>
-          Subscribe
-        </Button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="pt-8">
+        <Heading />
+        <LightCTA />
+        <LightContent5 />
+      </div>
     </div>
   );
 }
