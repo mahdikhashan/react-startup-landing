@@ -42,3 +42,8 @@
 .progressBar {
   @apply mt-14;
 }
+
+.progressBarDetail {
+  @apply flex flex-row;
+  @apply items-center justify-between;
+}

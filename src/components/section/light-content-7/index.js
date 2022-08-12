@@ -17,6 +17,10 @@ function LightContent7() {
           </div>
           <div className={style.progressBar}>
             <ProgressBar value={50} max={100} />
+            <div className={style.progressBarDetail}>
+              <span>Facebook</span>
+              <span>35,929</span>
+            </div>
           </div>
           <div className={style.buttonList}>
             <Button>Get Started For Free</Button>
