@@ -60,5 +60,6 @@
 .shape > img:last-child {
   @apply absolute;
   @apply right-0;
+  @apply -bottom-[108px];
   @apply -z-10;
 }
